@@ -1,0 +1,23 @@
+# Data and training outputs: rebuilt by the pipeline, far too large for git
+data/
+checkpoints*/
+logs/
+reports/
+*.pt
+*.npy
+*.npz
+*.parquet
+
+# The written project report, its figures and the run snapshot it was built from
+report/
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.log
+
+# macOS
+.DS_Store
+._*
